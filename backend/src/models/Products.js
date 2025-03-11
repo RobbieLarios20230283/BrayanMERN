@@ -13,7 +13,7 @@ const productsShema = new Schema({
     timestamps:true,
     strict: false
 }
-    
+
 );
 
 export default model("products",productsShema)
